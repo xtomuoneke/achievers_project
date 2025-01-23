@@ -39,6 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'achievers_app',
+    'user_manager_app',
+    'course_manager_app',
+    'grading_app',
+    'enroll_tracking_app',
+    'discussion_app',
+    'dashboards_app',
+    'notifications_app',
+    'payment_app',
 ]
 
 MIDDLEWARE = [
