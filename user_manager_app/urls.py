@@ -8,3 +8,13 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('register', views.Register, name='register'),
 ]
+
+# urlpatterns = [
+#     path('registration_page/', views.registration_page, name='registration_page'),
+   
+# ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
