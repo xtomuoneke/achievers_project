@@ -5,3 +5,6 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 # Please, put all the urls specific to user_manager_app here
+urlpatterns = [
+    path('register', views.Register, name='register'),
+]
